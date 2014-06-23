@@ -1,19 +1,8 @@
 /**!
- *  little plugin to load youtube iFrame API with
- *  requireJS and init the youtube player.
+ *  Module to load youtube iFrame API with requireJS and init the youtube player.
  *
- *  The following requireJS config is needed
- *
- *  	var require = {
- *  		paths: {
- *  			'youTubeIFrameAPI' : 'https://www.youtube.com/iframe_api?noext'
- * 	 		}
- *  		, shim: {
- *  			"youTubeIFrameAPI": {
- *  				exports: 'YT'
- *  			}
- *  		}
- * 		};
+ *  Author: Daniel Sattler
+ *  © 2014 b:dreizehn GmbH, Stuttgart
  */
 
 define([

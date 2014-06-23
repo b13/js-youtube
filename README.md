@@ -1,9 +1,9 @@
-requirejs-youtube
+js-youtube
 =================
 
-load youtube iFrame API with requireJS and init the youtube player.
+Module to load youtube iFrame API with requireJS and init the youtube player.
 
-# needed requireJS config
+# requireJS config
 
 ```js
 var require = {
@@ -46,6 +46,6 @@ require(['youTube'], function(youTube) {
 	player.stop();
 
 		// get youtube player object
-	player.getYouTubePlayer()
+	var ytObj = player.getYouTubePlayer();
 });
 ```
