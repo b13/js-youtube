@@ -63,6 +63,8 @@ define([
 				}
 			});
 
+			me.youTubeId = s.youTubeId;
+
 			return me;
 		}
 
@@ -71,7 +73,7 @@ define([
 			 * play video
 			 */
 		me.play = function() {
-			me.player.playVideo();
+			player.playVideo();
 		};
 
 
@@ -90,6 +92,14 @@ define([
 			player.stopVideo();
 		};
 
+
+			/**
+			 * get iFrame DOM reference
+			 * @returns {*|HTMLElement}
+			 */
+		me.getElem = function() {
+			return $("#" + s.id);
+		};
 
 			/**
 			 * return youtube player instance
