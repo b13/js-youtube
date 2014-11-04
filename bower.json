@@ -1,0 +1,9 @@
+{
+  	"name": "js-youtube",
+	"description": "Module to load youtube iFrame API with requireJS and init the youtube player.",
+	"main": "src/youtube.js",
+	"version": "0.0.1",
+	"dependencies": {
+		"jquery": ">= 1.8.0"
+  	}
+}
