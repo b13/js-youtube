@@ -109,7 +109,9 @@ define([
 			return player;
 		};
 
-		return initialize();
+		return YT.ready(function() {
+			return initialize();
+		});
 	};
 
 	return youTube;
