@@ -30,7 +30,7 @@ define([
 		var
 			me       = this
 			, player = {}
-			, s      = $.extend(options, opts);
+			, s      = $.extend({}, options, opts);
 
 		function initialize() {
 
